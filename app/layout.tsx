@@ -24,6 +24,7 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  manifest: '/manifest.json',
   title: {
     default: 'Rótulos Salmozora | Señalética Arquitectónica de Alta Gama',
     template: '%s | Rótulos Salmozora',
@@ -34,6 +35,10 @@ export const metadata: Metadata = {
   creator: 'Rótulos Salmozora',
   publisher: 'Rótulos Salmozora',
   robots: 'index, follow',
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'es_ES',
