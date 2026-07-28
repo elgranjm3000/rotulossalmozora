@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   publisher: 'Rótulos Salmozora',
   robots: 'index, follow',
   icons: {
-    icon: '/icon.png',
-    apple: '/apple-icon.png',
+    icon: '/favicon.svg',
+    apple: '/apple-icon.svg',
   },
   openGraph: {
     type: 'website',
