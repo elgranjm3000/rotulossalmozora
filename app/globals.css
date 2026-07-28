@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-primary;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-backgroundAlt;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-secondary hover:bg-primary transition-colors;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply relative overflow-hidden bg-primary text-white px-6 py-3 font-mono text-label-lg uppercase tracking-widest transition-colors hover:bg-accent;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-primary text-primary px-6 py-3 font-mono text-label-lg uppercase tracking-widest transition-all hover:bg-primary hover:text-white;
+  }
+
+  .section-label {
+    @apply font-mono text-label-md text-accent uppercase tracking-widest;
+  }
+
+  .section-title {
+    @apply font-display font-bold text-headline-xl lg:text-display-xl uppercase tracking-tight leading-[0.9];
+  }
+
+  .card-tech {
+    @apply p-6 lg:p-8 border border-border/30 hover:border-border hover:bg-backgroundAlt transition-all;
+  }
+
+  .project-card {
+    @apply cursor-pointer;
+  }
+
+  .project-card-image {
+    @apply relative aspect-[4/5] mb-5 overflow-hidden bg-white;
+  }
+
+  .project-tag {
+    @apply absolute top-4 left-4 bg-primary text-white px-3 py-1 font-mono text-label-sm uppercase tracking-wider;
+  }
+
+  .reveal {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .reveal.active {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Logo scroll animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
