@@ -4,24 +4,24 @@ import { useEffect, useRef } from 'react'
 
 const services = [
   {
-    icon: 'precision_manufacturing',
-    title: 'Precisión Extrema',
-    description: 'Corte láser y fresado CNC con tolerancias de micras para acabados perfectos.',
+    icon: 'checkroom',
+    title: 'Rótulos Comerciales',
+    description: 'Letreros para fachadas, rótulos luminosos, cajas de luz y tótems. Diseños que captan clientes.',
   },
   {
-    icon: 'shield',
-    title: 'Máxima Durabilidad',
-    description: 'Tratamientos anticorrosivos y materiales certificados para exteriores hostiles.',
+    icon: 'directions_car',
+    title: 'Rotulación de Vehículos',
+    description: 'Vinilos de alta resistencia para coches, furgonetas y flotas. Tu negocio rodando por la ciudad.',
   },
   {
-    icon: 'diamond',
-    title: 'Materiales Premium',
-    description: 'Aluminio cepillado, acero 316 y acrílicos de alta densidad óptica.',
+    icon: 'print',
+    title: 'Impresión Digital',
+    description: 'Lonas, vinilos, pancartas y displays publicitarios con tintas de larga duración y colores vibrantes.',
   },
   {
-    icon: 'engineering',
-    title: 'Instalación Experta',
-    description: 'Equipo propio cualificado para montajes complejos en cualquier estructura.',
+    icon: 'format_paint',
+    title: 'Señalética Corporativa',
+    description: 'Placas, directorios y señalización interior para oficinas, comercios y espacios públicos.',
   },
 ]
 
@@ -54,8 +54,8 @@ export function Services() {
   return (
     <section id="servicios" ref={sectionRef} className="py-section px-4 sm:px-6 lg:px-16 max-w-container mx-auto">
       <div className="mb-16 lg:mb-20">
-        <h2 className="reveal section-label mb-4">01 — El Estándar Salmozora</h2>
-        <h3 className="reveal section-title">Excelencia en cada detalle</h3>
+        <h2 className="reveal section-label mb-4">¿Qué hacemos?</h2>
+        <h3 className="reveal section-title">Servicios de Rotulación</h3>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

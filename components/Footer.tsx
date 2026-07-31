@@ -8,36 +8,36 @@ export function Footer() {
         <div className="lg:col-span-4">
           <Logo className="mb-6" />
           <h2 className="font-display font-semibold text-xl text-primary mb-4">
-            Rótulos Salmozora
+            Rótulos Almozora
           </h2>
           <p className="font-mono text-body-sm text-secondary leading-relaxed max-w-xs">
-            Precisión arquitectónica en cada corte. Especialistas en soluciones de identidad visual para entornos de alta gama desde 1994.
+            Fabricación e instalación profesional de rótulos, letreros y rotulación de vehículos. Expertos en rotulación desde 1994.
           </p>
         </div>
 
         <div className="sm:col-start-1 lg:col-start-6 lg:col-span-2">
           <h3 className="font-mono text-label-md uppercase tracking-widest text-primary mb-6">
-            Explorar
+            Servicios
           </h3>
           <ul className="space-y-3">
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#portafolio">
-                Portafolio
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#servicios">
+                Rótulos Comerciales
               </Link>
             </li>
             <li>
               <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#servicios">
-                Servicios
+                Rotulación Vehículos
               </Link>
             </li>
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#proceso">
-                Proceso
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#servicios">
+                Impresión Digital
               </Link>
             </li>
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#contacto">
-                Contacto
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#beneficios">
+                Beneficios
               </Link>
             </li>
           </ul>
@@ -67,18 +67,14 @@ export function Footer() {
           </h3>
           <ul className="space-y-3">
             <li>
-              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="mailto:info@rotulossalmozora.com">
+              <a className="font-mono text-body-sm text-secondary hover:text-accent transition-colors flex items-center gap-2" href="https://wa.me/34XXXXXXXXX" target="_blank" rel="noopener noreferrer">
+                <span className="material-symbols-outlined text-sm">chat</span>
+                WhatsApp
+              </a>
+            </li>
+            <li>
+              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="mailto:info@rotulosalmozora.com">
                 Email
-              </a>
-            </li>
-            <li>
-              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#">
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#">
-                Instagram
               </a>
             </li>
           </ul>
@@ -87,7 +83,7 @@ export function Footer() {
 
       <div className="px-4 sm:px-6 lg:px-16 py-6 lg:py-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center gap-4 max-w-container mx-auto">
         <span className="font-mono text-label-sm text-secondary">
-          © 2024 Rótulos Salmozora. Architectural Precision.
+          © 2024 Rótulos Almozora. Rotulación profesional desde 1994.
         </span>
         <div className="flex gap-3">
           <div className="w-2 h-2 bg-primary" />
@@ -95,6 +91,17 @@ export function Footer() {
           <div className="w-2 h-2 bg-accent" />
         </div>
       </div>
+
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/34XXXXXXXXX"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white w-16 h-16 rounded-none flex items-center justify-center shadow-lg hover:bg-[#20bd5a] transition-all hover:scale-105 active:scale-95"
+        aria-label="Contactar por WhatsApp"
+      >
+        <span className="material-symbols-outlined text-3xl">chat</span>
+      </a>
     </footer>
   )
 }

@@ -33,14 +33,14 @@ export function Testimonial() {
           format_quote
         </span>
         <p className="font-display font-semibold text-2xl sm:text-3xl lg:text-4xl text-primary leading-tight mb-10">
-          &quot;La capacidad de Salmozora para interpretar conceptos arquitectónicos complejos y materializarlos con tal rigor técnico es incomparable. Se han convertido en nuestro partner estratégico para toda señalética corporativa.&quot;
+          &quot;Contactamos con Almozora para rotular toda nuestra flota de reparto y el resultado fue espectacular. Buenos materiales, rapidísimos y muy buen precio. Ahora cualquier persona que ve nuestras furgonetas sabe quiénes somos.&quot;
         </p>
         <div>
           <h4 className="font-display font-semibold text-lg text-primary uppercase">
-            Arq. Elena Rodríguez
+            Carlos Méndez
           </h4>
           <p className="font-mono text-label-sm text-secondary uppercase tracking-widest">
-            Directora de Proyectos // Estudio Vértice
+            Gerente // Transportes Méndez
           </p>
         </div>
       </div>

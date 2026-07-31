@@ -20,9 +20,8 @@ export function Navigation() {
   const navLinks = [
     { name: 'Inicio', href: '#' },
     { name: 'Servicios', href: '#servicios' },
+    { name: 'Beneficios', href: '#beneficios' },
     { name: 'Proceso', href: '#proceso' },
-    { name: 'Portafolio', href: '#portafolio' },
-    { name: 'Contacto', href: '#contacto' },
   ]
 
   return (
@@ -49,10 +48,13 @@ export function Navigation() {
               </a>
             ))}
             <a
-              href="#contacto"
-              className="btn-primary inline-block"
+              href="https://wa.me/34XXXXXXXXX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center gap-2"
             >
-              Inicia Proyecto
+              <span className="material-symbols-outlined text-lg">chat</span>
+              <span>WhatsApp</span>
             </a>
           </div>
 
@@ -87,11 +89,14 @@ export function Navigation() {
                 </a>
               ))}
               <a
-                href="#contacto"
-                className="btn-primary block text-center"
+                href="https://wa.me/34XXXXXXXXX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary flex items-center gap-2 justify-center text-center"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Inicia Proyecto
+                <span className="material-symbols-outlined">chat</span>
+                <span>WhatsApp</span>
               </a>
             </div>
           </div>

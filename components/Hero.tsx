@@ -35,10 +35,10 @@ export function Hero() {
         <div
           className="w-full h-full bg-cover bg-center scale-105"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070')",
+            backgroundImage: "url('https://images.unsplash.com/photo-1621275471769-e6aa344546d5?q=80&w=2073')",
           }}
         />
-        <div className="absolute inset-0 bg-white/50" />
+        <div className="absolute inset-0 bg-white/55" />
       </div>
 
       {/* Content */}
@@ -46,28 +46,34 @@ export function Hero() {
         <div className="max-w-4xl">
           {/* Badge */}
           <span className="reveal inline-block font-mono text-label-lg uppercase tracking-widest bg-accent text-white px-4 py-2 mb-8">
-            Señalética de Alta Gama // Est. 1994
+            Fabricación de Rótulos // Desde 1994
           </span>
 
           {/* Headline */}
-          <h1 className="reveal font-display font-display-xl text-headline-xl sm:text-headline-lg lg:text-display-xl text-primary mb-8 uppercase leading-[0.9] tracking-tight">
-            Transformamos su<br />
-            <span className="text-accent">Identidad</span> en<br />
-            Puntos de Referencia
+          <h1 className="reveal font-display font-display-xl text-4xl sm:text-5xl lg:text-display-xl text-primary mb-8 uppercase leading-[0.9] tracking-tight">
+            Dale identidad<br />
+            <span className="text-accent">a tu negocio</span> con<br />
+            rótulos que se ven
           </h1>
 
           {/* Subheadline */}
           <p className="reveal font-body text-body-lg text-secondary mb-10 max-w-2xl leading-relaxed">
-            Precisión arquitectónica en cada corte. Especialistas en soluciones de identidad visual para entornos exclusivos, corporativos y retail de alta gama.
+            Fabricamos rótulos, letreros, señalética y rotulamos vehículos. Materiales de calidad, precios competitivos y atención personalizada para que tu marca destaque.
           </p>
 
           {/* CTAs */}
           <div className="reveal flex flex-col sm:flex-row gap-4">
-            <a href="#contacto" className="btn-primary text-center">
-              Inicia Tu Proyecto
+            <a
+              href="https://wa.me/34XXXXXXXXX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center gap-3 justify-center text-center"
+            >
+              <span className="material-symbols-outlined text-xl">chat</span>
+              <span>Consúltanos por WhatsApp</span>
             </a>
-            <a href="#portafolio" className="btn-secondary text-center">
-              Ver Portafolio
+            <a href="#servicios" className="btn-secondary text-center">
+              Ver Servicios
             </a>
           </div>
         </div>
@@ -77,7 +83,7 @@ export function Hero() {
       <div className="absolute bottom-8 right-8 lg:bottom-16 lg:right-16 hidden md:block">
         <div className="border-l border-b border-primary/20 w-24 h-24 flex items-end p-3">
           <span className="font-mono text-label-sm text-secondary uppercase tracking-wider">
-            Architectural Precision // GRID_REF_SAL
+            Rotulación Profesional // EST.1994
           </span>
         </div>
       </div>

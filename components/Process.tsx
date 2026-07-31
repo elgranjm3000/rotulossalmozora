@@ -5,18 +5,18 @@ import { useEffect, useRef } from 'react'
 const steps = [
   {
     number: '01',
-    title: 'Consultoría',
-    description: 'Analizamos el espacio, los materiales y la normativa para definir la solución técnica óptima.',
+    title: 'Cuéntanos tu idea',
+    description: 'Te asesoramos sobre materiales, tamaños y diseño. Te ayudamos a elegir la mejor opción para tu presupuesto.',
   },
   {
     number: '02',
-    title: 'Diseño y Fabricación',
-    description: 'Prototipado digital y producción industrial bajo estrictos controles de calidad.',
+    title: 'Diseñamos y Fabricamos',
+    description: 'Creamos el diseño que necesitas y lo fabricamos con materiales de primera calidad en nuestro taller.',
   },
   {
     number: '03',
-    title: 'Instalación',
-    description: 'Ejecución final con precisión milimétrica, garantizando integridad estructural y estética.',
+    title: 'Instalamos y Listo',
+    description: 'Montaje profesional en tu local o vehículo. Rápido, limpio y con garantía en todos nuestros trabajos.',
   },
 ]
 
@@ -51,15 +51,21 @@ export function Process() {
       <div className="px-4 sm:px-6 lg:px-16 max-w-container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-5">
-            <h2 className="reveal section-label mb-4">02 — Nuestro Método</h2>
+            <h2 className="reveal section-label mb-4">Cómo trabajamos</h2>
             <h3 className="reveal section-title mb-6">
-              De la visión a la realidad
+              De la idea al resultado
             </h3>
             <p className="reveal font-body text-body-lg text-secondary mb-10 leading-relaxed max-w-md">
-              Un proceso simplificado diseñado para arquitectos y promotores que buscan resultados sin fricciones.
+              Un proceso sencillo y directo. Sin complicaciones, sin vueltas. Tú nos cuentas lo que necesitas y nosotros lo hacemos realidad.
             </p>
-            <a className="reveal btn-primary inline-block" href="#contacto">
-              Solicitar Consulta Técnica
+            <a
+              href="https://wa.me/34XXXXXXXXX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="reveal btn-primary inline-flex items-center gap-3"
+            >
+              <span className="material-symbols-outlined">chat</span>
+              <span>Pide tu presupuesto</span>
             </a>
           </div>
 

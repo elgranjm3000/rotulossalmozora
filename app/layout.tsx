@@ -26,14 +26,14 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   manifest: '/manifest.json',
   title: {
-    default: 'Rótulos Salmozora | Señalética Arquitectónica de Alta Gama',
-    template: '%s | Rótulos Salmozora',
+    default: 'Rótulos Almozora | Fabricación e Instalación de Rótulos',
+    template: '%s | Rótulos Almozora',
   },
-  description: 'Rótulos Salmozora - Señalética arquitectónica de alta gama. Precisión milimétrica, materiales premium y diseño industrial para espacios exclusivos desde 1994.',
-  keywords: ['rótulos arquitectónicos', 'señalética high-end', 'letreros corporativos', 'signage diseño', 'rótulos minimalistas', 'identidad visual'],
-  authors: [{ name: 'Rótulos Salmozora' }],
-  creator: 'Rótulos Salmozora',
-  publisher: 'Rótulos Salmozora',
+  description: 'Rótulos Almozora - Expertos en fabricación e instalación de rótulos, letreros corporativos, señalética y rotulación de vehículos. Materiales de alta calidad, servicio rápido y personalizado.',
+  keywords: ['rótulos', 'rotulación', 'letreros corporativos', 'rotulación de vehículos', 'señalética', 'rótulos luminosos', 'fabricación de rótulos', 'letreros', 'impresión digital', 'decoración de negocios'],
+  authors: [{ name: 'Rótulos Almozora' }],
+  creator: 'Rótulos Almozora',
+  publisher: 'Rótulos Almozora',
   robots: 'index, follow',
   icons: {
     icon: '/favicon.svg',
@@ -42,18 +42,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://rotulossalmozora.com',
-    title: 'Rótulos Salmozora | Señalética Arquitectónica de Alta Gama',
-    description: 'Transformamos su identidad en puntos de referencia. Precisión arquitectónica, materiales premium y diseño industrial minimalista.',
-    siteName: 'Rótulos Salmozora',
+    url: 'https://rotulosalmozora.com',
+    title: 'Rótulos Almozora | Fabricación e Instalación de Rótulos',
+    description: 'Expertos en rotulación: rótulos para negocios, vehículos y señalética. Dale visibilidad a tu marca con los mejores materiales.',
+    siteName: 'Rótulos Almozora',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rótulos Salmozora | Señalética Arquitectónica de Alta Gama',
-    description: 'Transformamos su identidad en puntos de referencia. Precisión arquitectónica, materiales premium y diseño industrial minimalista.',
-  },
-  verification: {
-    google: 'your-google-verification-code',
+    title: 'Rótulos Almozora | Fabricación e Instalación de Rótulos',
+    description: 'Expertos en rotulación: rótulos para negocios, vehículos y señalética. Dale visibilidad a tu marca.',
   },
 }
 
@@ -65,9 +62,9 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Rótulos Salmozora',
-    description: 'Señalética arquitectónica de alta gama con precisión milimétrica y materiales premium',
-    url: 'https://rotulossalmozora.com',
+    name: 'Rótulos Almozora',
+    description: 'Fabricación e instalación profesional de rótulos, letreros corporativos, rotulación de vehículos y señalética. Expertos en rotulación desde 1994.',
+    url: 'https://rotulosalmozora.com',
     telephone: '+34 XXX XXX XXX',
     address: {
       '@type': 'PostalAddress',
@@ -75,13 +72,13 @@ export default function RootLayout({
       addressLocality: 'España',
     },
     foundingDate: '1994',
-    priceRange: '$$$',
+    priceRange: '$$',
   }
 
   return (
     <html lang="es" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://rotulossalmozora.com" />
+        <link rel="canonical" href="https://rotulosalmozora.com" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&display=swap"
