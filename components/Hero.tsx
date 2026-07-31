@@ -29,7 +29,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative min-h-screen flex items-center pt-20 lg:pt-0 overflow-hidden">
+    <section ref={sectionRef} className="relative min-h-screen flex items-center pt-32 lg:pt-28 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div
