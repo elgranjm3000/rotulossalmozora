@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: 'Rótulos Almozora',
     images: [
       {
-        url: 'https://rotulosalmazora.vercel.app/opengraph-image.png',
+        url: 'https://rotulosalmazora.vercel.app/og-preview.png',
         width: 1200,
         height: 630,
         alt: 'Rótulos Almozora - Fabricación e Instalación de Rótulos',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rótulos Almozora | Fabricación e Instalación de Rótulos',
     description: 'Expertos en rotulación: rótulos para negocios, vehículos y señalética. Dale visibilidad a tu marca.',
-    images: ['https://rotulosalmazora.vercel.app/opengraph-image.png'],
+    images: ['https://rotulosalmazora.vercel.app/og-preview.png'],
   },
 }
 
