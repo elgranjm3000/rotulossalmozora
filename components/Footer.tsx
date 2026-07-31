@@ -73,7 +73,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="mailto:info@rotulosalmozora.com">
+              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="mailto:info@rotulosalmazora.com">
                 Email
               </a>
             </li>

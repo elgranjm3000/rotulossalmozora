@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://rotulosalmozora.com',
+    url: 'https://rotulosalmazora.vercel.app',
     title: 'Rótulos Almozora | Fabricación e Instalación de Rótulos',
     description: 'Expertos en rotulación: rótulos para negocios, vehículos y señalética. Dale visibilidad a tu marca con los mejores materiales.',
     siteName: 'Rótulos Almozora',
@@ -64,7 +64,7 @@ export default function RootLayout({
     '@type': 'LocalBusiness',
     name: 'Rótulos Almozora',
     description: 'Fabricación e instalación profesional de rótulos, letreros corporativos, rotulación de vehículos y señalética. Expertos en rotulación desde 1994.',
-    url: 'https://rotulosalmozora.com',
+    url: 'https://rotulosalmazora.vercel.app',
     telephone: '+34 XXX XXX XXX',
     address: {
       '@type': 'PostalAddress',
@@ -78,7 +78,7 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://rotulosalmozora.com" />
+        <link rel="canonical" href="https://rotulosalmazora.vercel.app" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&display=swap"

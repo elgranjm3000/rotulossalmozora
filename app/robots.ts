@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/.git/'],
       },
     ],
-    sitemap: 'https://rotulosalmozora.com/sitemap.xml',
+    sitemap: 'https://rotulosalmazora.vercel.app/sitemap.xml',
   }
 }
