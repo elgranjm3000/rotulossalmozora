@@ -82,6 +82,12 @@ export default function RootLayout({
     },
     foundingDate: '1994',
     priceRange: '$$',
+    image: [
+      'https://rotulosalmazora.vercel.app/images/hero-banner.webp',
+      'https://rotulosalmazora.vercel.app/images/trabajo-1.webp',
+      'https://rotulosalmazora.vercel.app/images/trabajo-2.webp',
+      'https://rotulosalmazora.vercel.app/images/trabajo-3.webp',
+    ],
   }
 
   return (

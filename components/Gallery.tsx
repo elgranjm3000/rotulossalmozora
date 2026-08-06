@@ -3,14 +3,14 @@
 import { useEffect, useRef } from 'react'
 
 const trabajos = [
-  { src: '/images/trabajo-1.webp', alt: 'Trabajo de rotulación - rótulos Almazora' },
-  { src: '/images/trabajo-2.webp', alt: 'Fabricación de rótulos Almazora' },
-  { src: '/images/trabajo-3.webp', alt: 'Rotulación profesional Almazora' },
-  { src: '/images/trabajo-4.webp', alt: 'Rótulos para negocio Almazora' },
-  { src: '/images/trabajo-5.webp', alt: 'Rotulación de fachadas Almazora' },
-  { src: '/images/trabajo-6.webp', alt: 'Señalética corporativa Almazora' },
-  { src: '/images/trabajo-7.webp', alt: 'Rotulación de vehículos Almazora' },
-  { src: '/images/trabajo-8.webp', alt: 'Letreros y rótulos luminosos Almazora' },
+  { src: '/images/trabajo-1.webp', alt: 'Rótulo comercial fabricado e instalado por rotulistas Almazora - señalética exterior con acabado profesional' },
+  { src: '/images/trabajo-2.webp', alt: 'Fabricación de rótulos corporativos Almazora - letrero de fachada para negocio con iluminación LED' },
+  { src: '/images/trabajo-3.webp', alt: 'Rotulación profesional de local comercial por Rótulos Almazora - identidad visual corporativa' },
+  { src: '/images/trabajo-4.webp', alt: 'Rótulo para tienda y escaparate fabricado en Almazora - diseño y montaje de letreros comerciales' },
+  { src: '/images/trabajo-5.webp', alt: 'Rotulación de fachada exterior en Almazora - letreros y señalética para empresas y negocios' },
+  { src: '/images/trabajo-6.webp', alt: 'Señalética corporativa y directorios fabricados por rotulistas Almazora - placas y rótulos interiores' },
+  { src: '/images/trabajo-7.webp', alt: 'Rotulación de vehículos y furgonetas en Almazora - vinilos publicitarios para flotas y coches comerciales' },
+  { src: '/images/trabajo-8.webp', alt: 'Letreros luminosos y cajas de luz fabricados por Rótulos Almazora - rótulos para exterior e interior' },
 ]
 
 export function Gallery() {

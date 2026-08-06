@@ -56,7 +56,18 @@ export function Hero() {
   return (
     <section ref={sectionRef} className="relative min-h-screen flex items-center pt-32 lg:pt-28 overflow-hidden">
       {/* Cinemagraph Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0" role="img" aria-label="Cinemagraph de trabajos de rotulación Almazora: rótulos comerciales, letreros, rotulación de fachadas y vehículos">
+        {/* SEO-visible img tags (hidden visually, indexed by Google) */}
+        {slides.map((src, i) => (
+          <img
+            key={`seo-${src}`}
+            src={src}
+            alt={`Rotulación Almazora - Trabajo de fabricación de rótulos y señalética ${i + 1}`}
+            className="sr-only"
+            loading={i === 0 ? 'eager' : 'lazy'}
+          />
+        ))}
+        {/* Visible cinemagraph layers */}
         {slides.map((src, i) => (
           <div
             key={src}
