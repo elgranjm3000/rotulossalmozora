@@ -49,7 +49,7 @@ export function Gallery() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
         {trabajos.map((trabajo, index) => (
           <div key={index} className="reveal group overflow-hidden bg-backgroundAlt">
-            <div className="relative aspect-[4/3] overflow-hidden">
+            <div className="relative aspect-video overflow-hidden">
               <img
                 src={trabajo.src}
                 alt={trabajo.alt}
