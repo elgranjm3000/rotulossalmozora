@@ -2,6 +2,7 @@ import { Navigation } from '@/components/Navigation'
 import { Hero } from '@/components/Hero'
 import { TrustedBy } from '@/components/TrustedBy'
 import { Services } from '@/components/Services'
+import { Gallery } from '@/components/Gallery'
 import { Benefits } from '@/components/Benefits'
 import { Process } from '@/components/Process'
 import { Testimonial } from '@/components/Testimonial'
@@ -16,6 +17,7 @@ export default function HomePage() {
         <Hero />
         <TrustedBy />
         <Services />
+        <Gallery />
         <Benefits />
         <Process />
         <Testimonial />

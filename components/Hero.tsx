@@ -36,10 +36,10 @@ export function Hero() {
         <div
           className="w-full h-full bg-cover bg-center scale-105"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1621275471769-e6aa344546d5?q=80&w=2073')",
+            backgroundImage: "url('/images/hero-banner.webp')",
           }}
         />
-        <div className="absolute inset-0 bg-white/55" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/40 to-white/20" />
       </div>
 
       {/* Content */}
