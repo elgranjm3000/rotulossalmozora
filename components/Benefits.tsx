@@ -7,14 +7,17 @@ const businessBenefits = [
   {
     title: 'Atrae más clientes',
     description: 'Un rótulo bien diseñado es tu vendedor silencioso 24/7. Capta la atención de quienes pasan y convierte curiosos en clientes.',
+    link: '/blog/rotulacion-negocios/atrae-mas-clientes',
   },
   {
     title: 'Refuerza tu marca',
     description: 'La rotulación profesional comunica calidad, seriedad y confianza. Tu imagen lo es todo en la primera impresión.',
+    link: '/blog/rotulacion-negocios/refuerza-tu-marca',
   },
   {
     title: 'Inversión que se paga sola',
     description: 'A diferencia de la publicidad digital, un rótulo físico trabaja para ti durante años sin costes recurrentes.',
+    link: '/blog/rotulacion-negocios/inversion-que-se-paga-sola',
   },
 ]
 
@@ -22,14 +25,17 @@ const vehicleBenefits = [
   {
     title: 'Publicidad móvil sin límites',
     description: 'Tu furgoneta o coche rotulado es un anuncio en movimiento. Miles de impresiones diarias sin pagar un céntimo extra.',
+    link: '/blog/rotulacion-vehiculos/publicidad-movil-sin-limites',
   },
   {
     title: 'Protege la pintura',
     description: 'El vinilo de rotulación protege la carrocería original de rayos UV, arañazos y desgaste. Al retirarlo, la pintura está como nueva.',
+    link: '/blog/rotulacion-vehiculos/protege-la-pintura',
   },
   {
     title: 'Imagen profesional',
     description: 'Llegar a tus clientes con un vehículo rotulado proyecta seriedad y profesionalidad. Generas confianza antes de bajar del coche.',
+    link: '/blog/rotulacion-vehiculos/imagen-profesional',
   },
 ]
 
@@ -81,9 +87,18 @@ export function Benefits() {
                 <h5 className="font-display font-semibold text-xl text-primary uppercase mb-3">
                   {benefit.title}
                 </h5>
-                <p className="font-body text-body-sm text-secondary leading-relaxed">
+                <p className="font-body text-body-sm text-secondary leading-relaxed mb-4">
                   {benefit.description}
                 </p>
+                {'link' in benefit && (
+                  <a
+                    href={benefit.link}
+                    className="font-mono text-label-sm text-accent uppercase tracking-widest hover:text-primary transition-colors flex items-center gap-2 mt-auto"
+                  >
+                    Leer más
+                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                  </a>
+                )}
               </div>
             ))}
           </div>
@@ -103,9 +118,18 @@ export function Benefits() {
                 <h5 className="font-display font-semibold text-xl text-primary uppercase mb-3">
                   {benefit.title}
                 </h5>
-                <p className="font-body text-body-sm text-secondary leading-relaxed">
+                <p className="font-body text-body-sm text-secondary leading-relaxed mb-4">
                   {benefit.description}
                 </p>
+                {'link' in benefit && (
+                  <a
+                    href={benefit.link}
+                    className="font-mono text-label-sm text-accent uppercase tracking-widest hover:text-primary transition-colors flex items-center gap-2 mt-auto"
+                  >
+                    Leer más
+                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                  </a>
+                )}
               </div>
             ))}
           </div>

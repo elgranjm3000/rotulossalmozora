@@ -23,6 +23,7 @@ export function Navigation() {
     { name: 'Servicios', href: '#servicios' },
     { name: 'Beneficios', href: '#beneficios' },
     { name: 'Proceso', href: '#proceso' },
+    { name: 'Blog', href: '/blog' },
   ]
 
   return (
