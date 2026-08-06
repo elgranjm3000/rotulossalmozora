@@ -8,7 +8,7 @@ export function Footer() {
         <div className="lg:col-span-4">
           <Logo className="mb-6" />
           <h2 className="font-display font-semibold text-xl text-primary mb-4">
-            Rótulos Almozora
+            Rótulos Almazora
           </h2>
           <p className="font-mono text-body-sm text-secondary leading-relaxed max-w-xs">
             Fabricación e instalación profesional de rótulos, letreros y rotulación de vehículos. Expertos en rotulación desde 1994.
@@ -83,7 +83,7 @@ export function Footer() {
 
       <div className="px-4 sm:px-6 lg:px-16 py-6 lg:py-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center gap-4 max-w-container mx-auto">
         <span className="font-mono text-label-sm text-secondary">
-          © 2024 Rótulos Almozora. Rotulación profesional desde 1994.
+          © 2024 Rótulos Almazora. Rotulación profesional desde 1994.
         </span>
         <div className="flex gap-3">
           <div className="w-2 h-2 bg-primary" />

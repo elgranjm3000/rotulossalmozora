@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Rótulos Almozora | Fabricación de Rótulos',
-    short_name: 'Almozora',
+    name: 'Rótulos Almazora | Fabricación de Rótulos',
+    short_name: 'Almazora',
     description: 'Expertos en rotulación: rótulos para negocios, vehículos y señalética.',
     start_url: '/',
     display: 'minimal-ui',

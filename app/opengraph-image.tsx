@@ -35,7 +35,7 @@ export default function Image() {
             <div style={{ width: '55%', height: 10, background: '#fbf9f9' }} />
           </div>
           <div style={{ fontSize: 52, fontWeight: 800, color: '#121212', textTransform: 'uppercase', letterSpacing: '-0.04em' }}>
-            Almozora
+            Almazora
           </div>
         </div>
 

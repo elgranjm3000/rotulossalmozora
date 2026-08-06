@@ -46,7 +46,7 @@ export function Hero() {
         <div className="max-w-4xl">
           {/* Badge */}
           <span className="reveal inline-block font-mono text-label-lg uppercase tracking-widest bg-accent text-white px-4 py-2 mb-8">
-            Fabricación de Rótulos // Desde 1994
+            Rotulistas en Almazora // Desde 1994
           </span>
 
           {/* Headline */}
@@ -58,7 +58,7 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="reveal font-body text-body-lg text-secondary mb-10 max-w-2xl leading-relaxed">
-            Fabricamos rótulos, letreros, señalética y rotulamos vehículos. Materiales de calidad, precios competitivos y atención personalizada para que tu marca destaque.
+            Rotulistas en Almazora especializados en fabricación de rótulos y rotulación. Hacemos rótulos para fachadas, rotulación de vehículos, letreros corporativos y señalética. Materiales de calidad y presupuesto sin compromiso.
           </p>
 
           {/* CTAs */}
