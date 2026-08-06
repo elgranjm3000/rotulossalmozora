@@ -1,20 +1,47 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import { WhatsAppIcon } from './WhatsAppIcon'
+
+const slides = [
+  '/images/hero-banner.webp',
+  '/images/trabajo-1.webp',
+  '/images/trabajo-2.webp',
+  '/images/trabajo-3.webp',
+]
+
+const INTERVAL = 5000
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
+  const [current, setCurrent] = useState(0)
+  const [prev, setPrev] = useState<number | null>(null)
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
 
+  const goTo = useCallback((next: number) => {
+    setPrev(current)
+    setCurrent(next)
+  }, [current])
+
+  // Autoplay
+  useEffect(() => {
+    timerRef.current = setInterval(() => {
+      setCurrent((c) => {
+        setPrev(c)
+        return (c + 1) % slides.length
+      })
+    }, INTERVAL)
+    return () => { if (timerRef.current) clearInterval(timerRef.current) }
+  }, [])
+
+  // Reveal observer
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.querySelectorAll('.reveal').forEach((el: Element) => {
-              setTimeout(() => {
-                el.classList.add('active')
-              }, (Array.from(entry.target.querySelectorAll('.reveal')).indexOf(el) as number) * 150)
+            entry.target.querySelectorAll('.reveal').forEach((el: Element, i: number) => {
+              setTimeout(() => el.classList.add('active'), i * 150)
             })
           }
         })
@@ -22,24 +49,26 @@ export function Hero() {
       { threshold: 0.1 }
     )
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current)
-    }
-
+    if (sectionRef.current) observer.observe(sectionRef.current)
     return () => observer.disconnect()
   }, [])
 
   return (
     <section ref={sectionRef} className="relative min-h-screen flex items-center pt-32 lg:pt-28 overflow-hidden">
-      {/* Background Image */}
+      {/* Cinemagraph Background */}
       <div className="absolute inset-0 z-0">
-        <div
-          className="w-full h-full bg-cover bg-center scale-105"
-          style={{
-            backgroundImage: "url('/images/hero-banner.webp')",
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/40 to-white/20" />
+        {slides.map((src, i) => (
+          <div
+            key={src}
+            className="absolute inset-0 bg-cover bg-center transition-opacity duration-[2s] ease-in-out"
+            style={{
+              backgroundImage: `url('${src}')`,
+              opacity: i === current ? 1 : i === prev ? 0 : 0,
+              transform: 'scale(1.05)',
+            }}
+          />
+        ))}
+        <div className="absolute inset-0 bg-gradient-to-r from-white/75 via-white/40 to-white/15" />
       </div>
 
       {/* Content */}
@@ -80,8 +109,22 @@ export function Hero() {
         </div>
       </div>
 
+      {/* Slide indicators */}
+      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex gap-3">
+        {slides.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => goTo(i)}
+            className={`w-12 h-[2px] transition-all duration-700 ${
+              i === current ? 'bg-accent w-16' : 'bg-primary/20 hover:bg-primary/40'
+            }`}
+            aria-label={`Imagen ${i + 1}`}
+          />
+        ))}
+      </div>
+
       {/* Technical Marking */}
-      <div className="absolute bottom-8 right-8 lg:bottom-16 lg:right-16 hidden md:block">
+      <div className="absolute bottom-8 right-8 lg:bottom-16 lg:right-16 hidden md:block z-10">
         <div className="border-l border-b border-primary/20 w-24 h-24 flex items-end p-3">
           <span className="font-mono text-label-sm text-secondary uppercase tracking-wider">
             Rotulación Profesional // EST.1994
