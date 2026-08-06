@@ -113,7 +113,7 @@ export function Hero() {
               <WhatsAppIcon className="w-6 h-6" />
               <span>Consúltanos por WhatsApp</span>
             </a>
-            <a href="#servicios" className="btn-secondary text-center">
+            <a href="/#servicios" className="btn-secondary text-center">
               Ver Servicios
             </a>
           </div>

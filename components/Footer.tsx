@@ -22,22 +22,22 @@ export function Footer() {
           </h3>
           <ul className="space-y-3">
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#servicios">
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/#servicios">
                 Rótulos Comerciales
               </Link>
             </li>
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#servicios">
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/#servicios">
                 Rotulación Vehículos
               </Link>
             </li>
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#servicios">
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/#servicios">
                 Impresión Digital
               </Link>
             </li>
             <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#beneficios">
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/#beneficios">
                 Beneficios
               </Link>
             </li>

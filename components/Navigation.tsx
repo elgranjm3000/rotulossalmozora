@@ -19,10 +19,10 @@ export function Navigation() {
   }, [])
 
   const navLinks = [
-    { name: 'Inicio', href: '#' },
-    { name: 'Servicios', href: '#servicios' },
-    { name: 'Beneficios', href: '#beneficios' },
-    { name: 'Proceso', href: '#proceso' },
+    { name: 'Inicio', href: '/' },
+    { name: 'Servicios', href: '/#servicios' },
+    { name: 'Beneficios', href: '/#beneficios' },
+    { name: 'Proceso', href: '/#proceso' },
     { name: 'Blog', href: '/blog' },
   ]
 
