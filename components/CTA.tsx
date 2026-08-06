@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
+import { WhatsAppIcon } from './WhatsAppIcon'
 
 export function CTA() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -60,7 +61,7 @@ export function CTA() {
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center gap-4 text-lg px-12 py-6"
               >
-                <span className="material-symbols-outlined text-2xl">chat</span>
+                <WhatsAppIcon className="w-7 h-7" />
                 <span>Abrir WhatsApp</span>
               </a>
             </div>
@@ -132,7 +133,7 @@ export function CTA() {
                   type="submit"
                   className="w-full btn-primary inline-flex items-center gap-3 justify-center text-center py-4"
                 >
-                  <span className="material-symbols-outlined">chat</span>
+                  <WhatsAppIcon className="w-5 h-5" />
                   <span>Enviar por WhatsApp</span>
                 </button>
                 <p className="font-mono text-label-sm text-secondary text-center">

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { LogoWithText } from './Logo'
+import { WhatsAppIcon } from './WhatsAppIcon'
 import Link from 'next/link'
 
 export function Navigation() {
@@ -53,7 +54,7 @@ export function Navigation() {
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2"
             >
-              <span className="material-symbols-outlined text-lg">chat</span>
+              <WhatsAppIcon className="w-5 h-5" />
               <span>WhatsApp</span>
             </a>
           </div>

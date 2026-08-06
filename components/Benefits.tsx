@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { WhatsAppIcon } from './WhatsAppIcon'
 
 const businessBenefits = [
   {
@@ -121,7 +122,7 @@ export function Benefits() {
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-3 justify-center"
           >
-            <span className="material-symbols-outlined text-xl">chat</span>
+            <WhatsAppIcon className="w-6 h-6" />
             <span>Te asesoramos por WhatsApp</span>
           </a>
         </div>

@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { WhatsAppIcon } from './WhatsAppIcon'
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -69,7 +70,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-3 justify-center text-center"
             >
-              <span className="material-symbols-outlined text-xl">chat</span>
+              <WhatsAppIcon className="w-6 h-6" />
               <span>Consúltanos por WhatsApp</span>
             </a>
             <a href="#servicios" className="btn-secondary text-center">

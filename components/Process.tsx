@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { WhatsAppIcon } from './WhatsAppIcon'
 
 const steps = [
   {
@@ -64,7 +65,7 @@ export function Process() {
               rel="noopener noreferrer"
               className="reveal btn-primary inline-flex items-center gap-3"
             >
-              <span className="material-symbols-outlined">chat</span>
+              <WhatsAppIcon className="w-5 h-5" />
               <span>Pide tu presupuesto</span>
             </a>
           </div>
