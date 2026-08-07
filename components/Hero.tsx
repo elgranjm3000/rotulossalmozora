@@ -1,37 +1,9 @@
 'use client'
 
-import { useEffect, useRef, useState, useCallback } from 'react'
-
-const slides = [
-  '/images/hero-banner.webp',
-  '/images/trabajo-1.webp',
-  '/images/trabajo-2.webp',
-  '/images/trabajo-3.webp',
-]
-
-const INTERVAL = 5000
+import { useEffect, useRef } from 'react'
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
-  const [current, setCurrent] = useState(0)
-  const [prev, setPrev] = useState<number | null>(null)
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
-
-  const goTo = useCallback((next: number) => {
-    setPrev(current)
-    setCurrent(next)
-  }, [current])
-
-  // Autoplay
-  useEffect(() => {
-    timerRef.current = setInterval(() => {
-      setCurrent((c) => {
-        setPrev(c)
-        return (c + 1) % slides.length
-      })
-    }, INTERVAL)
-    return () => { if (timerRef.current) clearInterval(timerRef.current) }
-  }, [])
 
   // Reveal observer
   useEffect(() => {
@@ -54,31 +26,20 @@ export function Hero() {
 
   return (
     <section ref={sectionRef} className="relative min-h-screen flex items-center pt-32 lg:pt-28 overflow-hidden">
-      {/* Cinemagraph Background */}
-      <div className="absolute inset-0 z-0" role="img" aria-label="Cinemagraph de trabajos de rotulación Almazora: rótulos comerciales, letreros, rotulación de fachadas y vehículos">
-        {/* SEO-visible img tags (hidden visually, indexed by Google) */}
-        {slides.map((src, i) => (
-          <img
-            key={`seo-${src}`}
-            src={src}
-            alt={`Rotulación Almazora - Trabajo de fabricación de rótulos y señalética ${i + 1}`}
-            className="sr-only"
-            loading={i === 0 ? 'eager' : 'lazy'}
-          />
-        ))}
-        {/* Visible cinemagraph layers */}
-        {slides.map((src, i) => (
-          <div
-            key={src}
-            className="absolute inset-0 bg-cover bg-center transition-opacity duration-[2s] ease-in-out"
-            style={{
-              backgroundImage: `url('${src}')`,
-              opacity: i === current ? 1 : i === prev ? 0 : 0,
-              transform: 'scale(1.05)',
-            }}
-          />
-        ))}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/75 via-white/40 to-white/15" />
+      {/* Background */}
+      <div className="absolute inset-0 z-0">
+        {/* SEO img tag */}
+        <img
+          src="/images/hero-banner.webp"
+          alt="Fabricación de rótulos Almazora - letras corpóreas y señalética profesional"
+          className="sr-only"
+        />
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/hero-banner.webp')" }}
+        />
+        {/* Strong gradient overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/60 to-white/35" />
       </div>
 
       {/* Content */}
@@ -90,7 +51,7 @@ export function Hero() {
           </span>
 
           {/* Headline */}
-          <h1 className="reveal font-display font-display-xl text-4xl sm:text-5xl lg:text-display-xl text-primary mb-8 uppercase leading-[0.9] tracking-tight">
+          <h1 className="reveal font-display font-bold text-4xl sm:text-5xl lg:text-7xl xl:text-[80px] text-primary mb-8 uppercase leading-[0.9] tracking-tight">
             Dale identidad<br />
             <span className="text-accent">a tu negocio</span> con<br />
             rótulos que se ven
@@ -108,20 +69,6 @@ export function Hero() {
             </a>
           </div>
         </div>
-      </div>
-
-      {/* Slide indicators */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex gap-3">
-        {slides.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => goTo(i)}
-            className={`w-12 h-[2px] transition-all duration-700 ${
-              i === current ? 'bg-accent w-16' : 'bg-primary/20 hover:bg-primary/40'
-            }`}
-            aria-label={`Imagen ${i + 1}`}
-          />
-        ))}
       </div>
 
       {/* Technical Marking */}
