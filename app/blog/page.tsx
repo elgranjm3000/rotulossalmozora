@@ -30,6 +30,13 @@ const articulos = [
     keywords: 'inversión rótulo, coste letrero, rentabilidad rotulación',
   },
   {
+    title: 'Fabricación de Rótulos: Proceso, Materiales y Calidad',
+    desc: 'Cómo se fabrica un rótulo profesional: diseño, materiales, técnicas de corte, iluminación LED e instalación.',
+    href: '/blog/rotulacion-negocios/fabricacion-de-rotulos',
+    category: 'Rotulación para Negocios',
+    keywords: 'fabricación de rótulos, materiales para rótulos, cómo se hacen los rótulos, rótulos a medida',
+  },
+  {
     title: 'Rotulación de Vehículos: Publicidad Móvil sin Límites',
     desc: 'Convierte tu coche o furgoneta en un anuncio en movimiento. Más de 2 millones de impactos al mes sin costes extra.',
     href: '/blog/rotulacion-vehiculos/publicidad-movil-sin-limites',
