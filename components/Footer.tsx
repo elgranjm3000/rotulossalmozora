@@ -74,7 +74,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="mailto:info@rotulosalmazora.com">
+              <a className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="mailto:contacto@rotulosalmazora.com">
                 Email
               </a>
             </li>

@@ -31,12 +31,13 @@ export function CTA() {
     return () => observer.disconnect()
   }, [])
 
-  const handleWhatsApp = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const message = encodeURIComponent(
-      `Hola, soy ${formData.nombre || 'un cliente interesado'}.\n\n${formData.mensaje || 'Quisiera información sobre sus servicios de rotulación.'}\n\nTeléfono: ${formData.telefono || 'No indicado'}`
+    const subject = encodeURIComponent(`Consulta de ${formData.nombre || 'un cliente'}`)
+    const body = encodeURIComponent(
+      `Nombre: ${formData.nombre || 'No indicado'}\nTeléfono: ${formData.telefono || 'No indicado'}\n\nMensaje:\n${formData.mensaje || 'Quisiera información sobre sus servicios de rotulación.'}`
     )
-    window.open(`https://wa.me/34XXXXXXXXX?text=${message}`, '_blank')
+    window.location.href = `mailto:contacto@rotulosalmazora.com?subject=${subject}&body=${body}`
   }
 
   return (
@@ -56,7 +57,7 @@ export function CTA() {
 
           {/* Contact Form */}
           <div className="reveal bg-backgroundAlt border border-border/30 p-8 lg:p-12">
-            <form onSubmit={handleWhatsApp} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label className="block font-mono text-label-sm uppercase tracking-widest text-primary mb-2">
                   Nombre
@@ -100,7 +101,7 @@ export function CTA() {
                 <span>Enviar mensaje</span>
               </button>
               <p className="font-mono text-label-sm text-secondary text-center">
-                Te responderemos vía WhatsApp lo antes posible
+                Te responderemos a la mayor brevedad posible
               </p>
             </form>
           </div>
