@@ -37,6 +37,13 @@ const articulos = [
     keywords: 'fabricación de rótulos, materiales para rótulos, cómo se hacen los rótulos, rótulos a medida',
   },
   {
+    title: 'Letras Corpóreas: La Guía Definitiva para Letreros 3D',
+    desc: 'Todo sobre letras corpóreas: materiales, iluminación LED, acabados, proceso de fabricación y precios orientativos.',
+    href: '/blog/rotulacion-negocios/letras-corporeas',
+    category: 'Rotulación para Negocios',
+    keywords: 'letras corpóreas, letras 3D, letras corpóreas iluminadas, letras corpóreas fachada, rótulos con volumen',
+  },
+  {
     title: 'Rotulación de Vehículos: Publicidad Móvil sin Límites',
     desc: 'Convierte tu coche o furgoneta en un anuncio en movimiento. Más de 2 millones de impactos al mes sin costes extra.',
     href: '/blog/rotulacion-vehiculos/publicidad-movil-sin-limites',
