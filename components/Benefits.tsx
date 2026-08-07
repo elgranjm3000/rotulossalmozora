@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { WhatsAppIcon } from './WhatsAppIcon'
 
 const businessBenefits = [
   {
@@ -135,21 +134,6 @@ export function Benefits() {
           </div>
         </div>
 
-        {/* CTA inside benefits */}
-        <div className="reveal text-center mt-20 lg:mt-32 pt-16 border-t border-border/30">
-          <p className="font-body text-body-lg text-secondary max-w-xl mx-auto mb-8">
-            ¿Quieres que tu negocio o vehículo destaque? Háblanos sin compromiso.
-          </p>
-          <a
-            href="https://wa.me/34XXXXXXXXX"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center gap-3 justify-center"
-          >
-            <WhatsAppIcon className="w-6 h-6" />
-            <span>Te asesoramos por WhatsApp</span>
-          </a>
-        </div>
       </div>
     </section>
   )
