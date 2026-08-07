@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef, useState, useCallback } from 'react'
-import { WhatsAppIcon } from './WhatsAppIcon'
 
 const slides = [
   '/images/hero-banner.webp',
@@ -102,18 +101,9 @@ export function Hero() {
             Rotulistas en Almazora especializados en fabricación de rótulos y rotulación. Hacemos rótulos para fachadas, rotulación de vehículos, letreros corporativos y señalética. Materiales de calidad y presupuesto sin compromiso.
           </p>
 
-          {/* CTAs */}
-          <div className="reveal flex flex-col sm:flex-row gap-4">
-            <a
-              href="https://wa.me/34XXXXXXXXX"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-3 justify-center text-center"
-            >
-              <WhatsAppIcon className="w-6 h-6" />
-              <span>Consúltanos por WhatsApp</span>
-            </a>
-            <a href="/#servicios" className="btn-secondary text-center">
+          {/* CTA */}
+          <div className="reveal">
+            <a href="/#servicios" className="btn-secondary text-center inline-block">
               Ver Servicios
             </a>
           </div>
