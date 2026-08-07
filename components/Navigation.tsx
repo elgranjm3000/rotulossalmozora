@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import { LogoWithText } from './Logo'
-import { WhatsAppIcon } from './WhatsAppIcon'
 import Link from 'next/link'
 
 export function Navigation() {
@@ -49,15 +48,6 @@ export function Navigation() {
                 {link.name}
               </a>
             ))}
-            <a
-              href="https://wa.me/34XXXXXXXXX"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-2"
-            >
-              <WhatsAppIcon className="w-5 h-5" />
-              <span>WhatsApp</span>
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -90,16 +80,6 @@ export function Navigation() {
                   {link.name}
                 </a>
               ))}
-              <a
-                href="https://wa.me/34XXXXXXXXX"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary flex items-center gap-2 justify-center text-center"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                <span className="material-symbols-outlined">chat</span>
-                <span>WhatsApp</span>
-              </a>
             </div>
           </div>
         )}
