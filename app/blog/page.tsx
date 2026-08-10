@@ -30,6 +30,13 @@ const articulos = [
     keywords: 'inversión rótulo, coste letrero, rentabilidad rotulación',
   },
   {
+    title: 'Fabricación de Rótulos a Medida: Así Trabajamos en Almazora',
+    desc: 'Conoce nuestro taller y proceso de fabricación: diseño, materiales, corte CNC, iluminación LED e instalación. Todo hecho en casa.',
+    href: '/blog/rotulacion-negocios/fabricacion-rotulos-almazora',
+    category: 'Rotulación para Negocios',
+    keywords: 'fabricación de rótulos Almazora, taller de rotulación, rótulos a medida, fabricación letreros',
+  },
+  {
     title: 'Fabricación de Rótulos: Proceso, Materiales y Calidad',
     desc: 'Cómo se fabrica un rótulo profesional: diseño, materiales, técnicas de corte, iluminación LED e instalación.',
     href: '/blog/rotulacion-negocios/fabricacion-de-rotulos',
