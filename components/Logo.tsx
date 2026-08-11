@@ -22,7 +22,7 @@ export function LogoWithText({ className = '' }: { className?: string }) {
     <div className={`flex items-center gap-3 ${className}`}>
       <Logo />
       <span className="font-display font-bold text-xl uppercase tracking-tighter hidden sm:block">
-        Almazora
+        Rótulos Almazora
       </span>
     </div>
   )
