@@ -44,25 +44,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="lg:col-span-2">
-          <h3 className="font-mono text-label-md uppercase tracking-widest text-primary mb-6">
-            Legal
-          </h3>
-          <ul className="space-y-3">
-            <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#">
-                Política de Privacidad
-              </Link>
-            </li>
-            <li>
-              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="#">
-                Términos de Servicio
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        <div className="lg:col-span-2">
+<div className="lg:col-span-2">
           <h3 className="font-mono text-label-md uppercase tracking-widest text-primary mb-6">
             Contacto
           </h3>
