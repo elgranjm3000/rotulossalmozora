@@ -5,6 +5,7 @@ import { Services } from '@/components/Services'
 import { FabricacionBanner } from '@/components/FabricacionBanner'
 import { Gallery } from '@/components/Gallery'
 import { Benefits } from '@/components/Benefits'
+import { ServiciosDestacados } from '@/components/ServiciosDestacados'
 import { Process } from '@/components/Process'
 import { Testimonial } from '@/components/Testimonial'
 import { CTA } from '@/components/CTA'
@@ -21,6 +22,7 @@ export default function HomePage() {
         <FabricacionBanner />
         <Gallery />
         <Benefits />
+        <ServiciosDestacados />
         <Process />
         <Testimonial />
         <CTA />
