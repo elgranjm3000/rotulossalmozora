@@ -8,7 +8,7 @@ const productos = [
     titulo: 'Letras Corpóreas',
     subtitulo: 'Rótulos 3D con presencia',
     descripcion: 'Letras con volumen que transforman cualquier fachada o recepción en un espacio premium. Disponibles en acrílico, aluminio y acero inoxidable, con iluminación LED frontal o efecto halo retroiluminado.',
-    imagen: '/images/trabajo-4.webp',
+    imagen: '/images/letras-corporeas.webp',
     enlace: '/blog/rotulacion-negocios/letras-corporeas',
     enlaceTexto: 'Guía completa de letras corpóreas',
     caracteristicas: [
@@ -22,7 +22,7 @@ const productos = [
     titulo: 'Banderolas Luminosas',
     subtitulo: 'Visibilidad desde todos los ángulos',
     descripcion: 'Rótulos salientes perpendiculares a la fachada que captan la atención de los peatones desde cualquier dirección. Perfectas para calles comerciales, centros urbanos y galerías.',
-    imagen: '/images/trabajo-6.webp',
+    imagen: '/images/banderola-luminosa.webp',
     enlace: '/#contacto',
     enlaceTexto: 'Solicita presupuesto',
     caracteristicas: [
@@ -36,7 +36,7 @@ const productos = [
     titulo: 'Cajas de Luz LED',
     subtitulo: 'Brilla de día y de noche',
     descripcion: 'Estructuras de aluminio con frente de metacrilato difusor e iluminación LED interior de bajo consumo. La solución más efectiva para que tu negocio sea visible las 24 horas del día.',
-    imagen: '/images/trabajo-2.webp',
+    imagen: '/images/caja-luz-led.webp',
     enlace: '/blog/rotulacion-negocios/fabricacion-rotulos-almazora',
     enlaceTexto: 'Cómo fabricamos tus rótulos',
     caracteristicas: [
@@ -87,7 +87,7 @@ export function ProductosPremium() {
               <div className="relative aspect-video overflow-hidden mb-6">
                 <img
                   src={prod.imagen}
-                  alt={`${prod.titulo} - ${prod.subtitulo} fabricados por Rótulos Almazora`}
+                  alt={`${prod.titulo} - ${prod.subtitulo} fabricados e instalados por Rótulos Almazora. ${prod.descripcion}`}
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   loading="lazy"
                 />

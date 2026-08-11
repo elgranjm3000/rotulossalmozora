@@ -68,8 +68,8 @@ export function ServiciosDestacados() {
         </div>
         <div className="reveal lg:col-span-7 lg:col-start-7 relative aspect-[16/10] overflow-hidden">
           <img
-            src="/images/trabajo-3.webp"
-            alt="Rotulación de fachadas en Almazora - letreros, señalética exterior e iluminación LED para negocios"
+            src="/images/trabajo-1.webp"
+            alt="Rotulación de fachadas en Almazora - letreros corpóreos, cajas de luz y señalética exterior con iluminación LED profesional"
             className="w-full h-full object-cover"
             loading="lazy"
           />
@@ -80,8 +80,8 @@ export function ServiciosDestacados() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
         <div className="reveal lg:col-span-7 lg:col-start-1 relative aspect-[16/10] overflow-hidden order-2 lg:order-1">
           <img
-            src="/images/trabajo-5.webp"
-            alt="Rotulación de vehículos en Almazora - vinilos publicitarios para coches, furgonetas y flotas comerciales"
+            src="/images/trabajo-2.webp"
+            alt="Rotulación de vehículos y furgonetas comerciales en Almazora - vinilos de corte premium, impresión digital y protección de pintura para flotas"
             className="w-full h-full object-cover"
             loading="lazy"
           />
