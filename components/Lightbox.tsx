@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useCallback } from 'react'
-import { WhatsAppIcon } from './WhatsAppIcon'
 
 interface LightboxProps {
   images: { src: string; alt: string }[]
@@ -87,21 +86,6 @@ export function Lightbox({ images, currentIndex, onClose, onPrev, onNext }: Ligh
         </svg>
       </button>
 
-      {/* Caption */}
-      <div className="absolute bottom-6 left-6 right-6 text-center">
-        <p className="font-body text-body-sm text-white/60 max-w-xl mx-auto leading-relaxed">
-          {current.alt}
-        </p>
-        <a
-          href="https://wa.me/34XXXXXXXXX"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-[#25D366] text-white font-mono text-label-sm uppercase tracking-widest hover:bg-[#20bd5a] transition-colors"
-        >
-          <WhatsAppIcon className="w-4 h-4" />
-          <span>¿Quieres uno así? Consúltanos</span>
-        </a>
-      </div>
     </div>
   )
 }
