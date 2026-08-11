@@ -3,10 +3,9 @@ import { Hero } from '@/components/Hero'
 import { TrustedBy } from '@/components/TrustedBy'
 import { Services } from '@/components/Services'
 import { FabricacionBanner } from '@/components/FabricacionBanner'
-import { Gallery } from '@/components/Gallery'
-import { Benefits } from '@/components/Benefits'
 import { ServiciosDestacados } from '@/components/ServiciosDestacados'
 import { ProductosPremium } from '@/components/ProductosPremium'
+import { Benefits } from '@/components/Benefits'
 import { Process } from '@/components/Process'
 import { Testimonial } from '@/components/Testimonial'
 import { CTA } from '@/components/CTA'
@@ -21,10 +20,9 @@ export default function HomePage() {
         <TrustedBy />
         <Services />
         <FabricacionBanner />
-        <Gallery />
-        <Benefits />
         <ServiciosDestacados />
         <ProductosPremium />
+        <Benefits />
         <Process />
         <Testimonial />
         <CTA />
