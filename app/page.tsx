@@ -6,6 +6,7 @@ import { FabricacionBanner } from '@/components/FabricacionBanner'
 import { Gallery } from '@/components/Gallery'
 import { Benefits } from '@/components/Benefits'
 import { ServiciosDestacados } from '@/components/ServiciosDestacados'
+import { ProductosPremium } from '@/components/ProductosPremium'
 import { Process } from '@/components/Process'
 import { Testimonial } from '@/components/Testimonial'
 import { CTA } from '@/components/CTA'
@@ -23,6 +24,7 @@ export default function HomePage() {
         <Gallery />
         <Benefits />
         <ServiciosDestacados />
+        <ProductosPremium />
         <Process />
         <Testimonial />
         <CTA />
