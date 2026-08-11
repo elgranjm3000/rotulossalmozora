@@ -105,6 +105,13 @@ export function Gallery() {
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
+              {/* Title overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4">
+                <span className="block font-display font-semibold text-white text-sm uppercase leading-tight">
+                  {cat.titulo}
+                </span>
+              </div>
               {/* Hover: magnifier */}
               <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-colors duration-500 flex items-center justify-center">
                 <span className="material-symbols-outlined text-4xl text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
