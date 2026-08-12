@@ -60,7 +60,7 @@ export function Process() {
               Un proceso sencillo y directo. Sin complicaciones, sin vueltas. Tú nos cuentas lo que necesitas y nosotros lo hacemos realidad.
             </p>
             <a
-              href="https://wa.me/34XXXXXXXXX"
+              href="https://wa.me/34620049872"
               target="_blank"
               rel="noopener noreferrer"
               className="reveal btn-primary inline-flex items-center gap-3"

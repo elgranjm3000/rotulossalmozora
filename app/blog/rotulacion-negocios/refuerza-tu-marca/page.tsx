@@ -63,7 +63,7 @@ export default function BlogRefuerzaMarca() {
 
         <div className="mt-16 p-8 bg-backgroundAlt border border-border/30">
           <p className="font-mono text-label-sm text-secondary uppercase tracking-widest mb-4">¿Quieres reforzar tu marca?</p>
-          <a href="https://wa.me/34XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-3">
+          <a href="https://wa.me/34620049872" target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-3">
             <span>Háblanos por WhatsApp</span>
           </a>
         </div>

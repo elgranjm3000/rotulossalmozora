@@ -50,7 +50,7 @@ export function Footer() {
           </h3>
           <ul className="space-y-3">
             <li>
-              <a className="font-mono text-body-sm text-secondary hover:text-accent transition-colors flex items-center gap-2" href="https://wa.me/34XXXXXXXXX" target="_blank" rel="noopener noreferrer">
+              <a className="font-mono text-body-sm text-secondary hover:text-accent transition-colors flex items-center gap-2" href="https://wa.me/34620049872" target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon className="w-4 h-4" />
                 WhatsApp
               </a>
@@ -77,7 +77,7 @@ export function Footer() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/34XXXXXXXXX"
+        href="https://wa.me/34620049872"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-[#20bd5a] transition-all hover:scale-110 active:scale-95"

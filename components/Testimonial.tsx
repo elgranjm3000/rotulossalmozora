@@ -33,15 +33,9 @@ export function Testimonial() {
           format_quote
         </span>
         <p className="font-display font-semibold text-2xl sm:text-3xl lg:text-4xl text-primary leading-tight mb-10">
-          &quot;Contactamos con Almazora para rotular toda nuestra flota de reparto y el resultado fue espectacular. Buenos materiales, rapidísimos y muy buen precio. Ahora cualquier persona que ve nuestras furgonetas sabe quiénes somos.&quot;
+          &quot;Contactamos con Rótulos Almazora para rotular toda nuestra flota de reparto y el resultado fue espectacular. Buenos materiales, rapidísimos y muy buen precio. Ahora cualquier persona que ve nuestras furgonetas sabe quiénes somos.&quot;
         </p>
         <div>
-          <h4 className="font-display font-semibold text-lg text-primary uppercase">
-            Carlos Méndez
-          </h4>
-          <p className="font-mono text-label-sm text-secondary uppercase tracking-widest">
-            Gerente // Transportes Méndez
-          </p>
         </div>
       </div>
     </section>
