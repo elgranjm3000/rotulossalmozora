@@ -24,13 +24,14 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rotulosalmazora.vercel.app'),
   manifest: '/manifest.json',
   title: {
     default: 'Rótulos Almazora | Fabricación e Instalación de Rótulos',
     template: '%s | Rótulos Almazora',
   },
   description: 'Rótulos Almazora - Rotulistas en Almazora. Fabricación e instalación de rótulos, rotulación de fachadas, rotulación de vehículos y señalética corporativa. Servicio rápido, materiales de alta calidad y presupuesto sin compromiso.',
-  keywords: ['Rótulos Almazora', 'fabricación rótulos Almazora', 'rotulación Almazora', 'rotulación de fachadas Almazora', 'rotulación de vehículos en Almazora', 'rotulistas Almazora', 'rótulos', 'rotulación', 'letreros corporativos', 'señalética', 'rótulos luminosos', 'fabricación de rótulos', 'impresión digital'],
+  keywords: ['Rótulos Almazora', 'fabricación rótulos Almazora', 'rotulación Almazora', 'rotulación de fachadas Almazora', 'rotulación de vehículos en Almazora', 'rotulistas Almazora', 'rótulos', 'rotulación', 'letreros corporativos', 'señalética', 'rótulos luminosos', 'fabricación de rótulos', 'impresión gran formato'],
   authors: [{ name: 'Rótulos Almazora' }],
   creator: 'Rótulos Almazora',
   publisher: 'Rótulos Almazora',
@@ -72,9 +73,9 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Rótulos Almazora',
-    description: 'Fabricación e instalación profesional de rótulos, letreros corporativos, rotulación de vehículos y señalética. Expertos en rotulación desde 1994.',
+    description: 'Fabricación e instalación profesional de rótulos, letreros corporativos, rotulación de vehículos y señalética. Especialistas en rotulación en Almazora.',
     url: 'https://rotulosalmazora.vercel.app',
-    telephone: '+34 XXX XXX XXX',
+    telephone: '+34620049872',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'ES',
