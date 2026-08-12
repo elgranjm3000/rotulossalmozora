@@ -15,7 +15,7 @@ const services = [
   },
   {
     icon: 'print',
-    title: 'Impresión Digital',
+    title: 'Impresión Gran Formato',
     description: 'Lonas, vinilos, pancartas y displays publicitarios con tintas de larga duración y colores vibrantes.',
   },
   {

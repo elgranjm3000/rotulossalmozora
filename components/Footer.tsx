@@ -12,7 +12,7 @@ export function Footer() {
             Rótulos Almazora
           </h2>
           <p className="font-mono text-body-sm text-secondary leading-relaxed max-w-xs">
-            Fabricación e instalación profesional de rótulos, letreros y rotulación de vehículos. Expertos en rotulación desde 1994.
+            Especialistas en fabricación de rótulos, letreros corporativos, rotulación de fachadas y vehículos. Materiales de primera calidad e instalación profesional garantizada.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export function Footer() {
             </li>
             <li>
               <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/#servicios">
-                Impresión Digital
+                Impresión Gran Formato
               </Link>
             </li>
             <li>
@@ -44,7 +44,25 @@ export function Footer() {
           </ul>
         </div>
 
-<div className="lg:col-span-2">
+        <div className="lg:col-span-2">
+          <h3 className="font-mono text-label-md uppercase tracking-widest text-primary mb-6">
+            Legal
+          </h3>
+          <ul className="space-y-3">
+            <li>
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/privacidad">
+                Política de Privacidad
+              </Link>
+            </li>
+            <li>
+              <Link className="font-mono text-body-sm text-secondary hover:text-primary transition-colors" href="/cookies">
+                Política de Cookies
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div className="lg:col-span-2">
           <h3 className="font-mono text-label-md uppercase tracking-widest text-primary mb-6">
             Contacto
           </h3>
@@ -66,7 +84,7 @@ export function Footer() {
 
       <div className="px-4 sm:px-6 lg:px-16 py-6 lg:py-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center gap-4 max-w-container mx-auto">
         <span className="font-mono text-label-sm text-secondary">
-          © 2024 Rótulos Almazora. Rotulación profesional desde 1994.
+          © 2024 Rótulos Almazora. Todos los derechos reservados.
         </span>
         <div className="flex gap-3">
           <div className="w-2 h-2 bg-primary" />
