@@ -24,7 +24,7 @@ const jetbrains = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://rotulosalmazora.vercel.app'),
+  metadataBase: new URL('https://rotulosalmazora.com'),
   manifest: '/manifest.json',
   title: {
     default: 'Rótulos Almazora | Fabricación e Instalación de Rótulos',
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://rotulosalmazora.vercel.app',
+    url: 'https://rotulosalmazora.com',
     title: 'Rótulos Almazora | Fabricación de Rótulos y Rotulación',
     description: 'Rotulistas en Almazora. Fabricación de rótulos, rotulación de fachadas y vehículos. Presupuesto sin compromiso, materiales de calidad.',
     siteName: 'Rótulos Almazora',
     images: [
       {
-        url: 'https://rotulosalmazora.vercel.app/opengraph-image.png',
+        url: 'https://rotulosalmazora.com/opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'Rótulos Almazora - Fabricación e Instalación de Rótulos',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rótulos Almazora | Fabricación e Instalación de Rótulos',
     description: 'Expertos en rotulación: rótulos para negocios, vehículos y señalética. Dale visibilidad a tu marca.',
-    images: ['https://rotulosalmazora.vercel.app/opengraph-image.png'],
+    images: ['https://rotulosalmazora.com/opengraph-image.png'],
   },
 }
 
@@ -74,7 +74,7 @@ export default function RootLayout({
     '@type': 'LocalBusiness',
     name: 'Rótulos Almazora',
     description: 'Fabricación e instalación profesional de rótulos, letreros corporativos, rotulación de vehículos y señalética. Especialistas en rotulación en Almazora.',
-    url: 'https://rotulosalmazora.vercel.app',
+    url: 'https://rotulosalmazora.com',
     telephone: '+34620049872',
     address: {
       '@type': 'PostalAddress',
@@ -84,17 +84,17 @@ export default function RootLayout({
     foundingDate: '1994',
     priceRange: '$$',
     image: [
-      'https://rotulosalmazora.vercel.app/images/hero-banner.webp',
-      'https://rotulosalmazora.vercel.app/images/trabajo-1.webp',
-      'https://rotulosalmazora.vercel.app/images/trabajo-2.webp',
-      'https://rotulosalmazora.vercel.app/images/trabajo-3.webp',
+      'https://rotulosalmazora.com/images/hero-banner.webp',
+      'https://rotulosalmazora.com/images/trabajo-1.webp',
+      'https://rotulosalmazora.com/images/trabajo-2.webp',
+      'https://rotulosalmazora.com/images/trabajo-3.webp',
     ],
   }
 
   return (
     <html lang="es" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://rotulosalmazora.vercel.app" />
+        <link rel="canonical" href="https://rotulosalmazora.com" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&display=swap"

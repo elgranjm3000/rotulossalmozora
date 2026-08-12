@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: 'Fabricamos rótulos a medida para negocios, fachadas y vehículos. Diseño, materiales, corte CNC, iluminación LED e instalación profesional.',
     images: [
       {
-        url: 'https://rotulosalmazora.vercel.app/images/fabricacion-rotulos.webp',
+        url: 'https://rotulosalmazora.com/images/fabricacion-rotulos.webp',
         width: 1181,
         height: 896,
         alt: 'Fabricación de rótulos en taller - Rótulos Almazora',
