@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/blog',
+  },
   title: 'Blog de Rotulación',
   description: 'Artículos sobre rotulación para negocios y vehículos. Aprende cómo los rótulos pueden mejorar tu imagen, atraer clientes y aumentar tus ventas.',
   keywords: ['blog rotulación', 'artículos rótulos', 'consejos rotulación', 'información letreros', 'guía señalética', 'rotulistas Almazora'],

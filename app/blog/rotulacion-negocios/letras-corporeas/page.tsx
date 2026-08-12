@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Letras Corpóreas: Tipos, Materiales e Iluminación para tu Negocio',
   description: 'Guía completa sobre letras corpóreas 3D para fachadas e interiores. Materiales, tipos de iluminación LED, acabados y proceso de fabricación de rótulos con volumen.',
   keywords: ['letras corpóreas', 'letras 3D', 'letras corpóreas iluminadas', 'letras corpóreas fachada', 'letras corpóreas LED', 'letras corpóreas acrílico', 'letras corpóreas aluminio', 'fabricación letras corpóreas', 'rótulos corpóreos', 'letras con volumen', 'letras corpóreas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-negocios/letras-corporeas',
+  },
   openGraph: {
     title: 'Letras Corpóreas: Tipos, Materiales e Iluminación para tu Negocio',
     description: 'Guía completa sobre letras corpóreas 3D: materiales, iluminación LED, acabados y proceso de fabricación. Dale volumen a tu marca.',

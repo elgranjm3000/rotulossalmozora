@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Rotulación de Vehículos: Publicidad Móvil sin Límites',
   description: 'Convierte tu coche o furgoneta en un anuncio en movimiento. La rotulación de vehículos genera miles de impresiones diarias sin costes publicitarios recurrentes.',
   keywords: ['rotulación de vehículos', 'publicidad móvil', 'vinilos para coches', 'rotular furgoneta', 'publicidad en vehículos', 'flota rotulada', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-vehiculos/publicidad-movil-sin-limites',
+  },
   openGraph: {
     title: 'Rotulación de Vehículos: Publicidad Móvil sin Límites',
     description: 'Convierte tu coche o furgoneta en un anuncio en movimiento. Miles de impresiones diarias sin pagar un céntimo extra.',

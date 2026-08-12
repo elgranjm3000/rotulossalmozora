@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Fabricación de Rótulos: Proceso, Materiales y Calidad',
   description: 'Descubre cómo se fabrican los rótulos profesionales: desde el diseño hasta la instalación. Materiales, técnicas de corte, iluminación LED y acabados de calidad.',
   keywords: ['fabricación de rótulos', 'cómo se hacen los rótulos', 'materiales para rótulos', 'fabricación letreros', 'corte CNC rótulos', 'rótulos a medida', 'fabricación rótulos Almazora', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-negocios/fabricacion-de-rotulos',
+  },
   openGraph: {
     title: 'Fabricación de Rótulos: Proceso, Materiales y Calidad',
     description: 'Descubre cómo se fabrican los rótulos profesionales: desde el diseño hasta la instalación. Materiales, técnicas y acabados.',

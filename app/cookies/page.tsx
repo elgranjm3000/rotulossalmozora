@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/cookies',
+  },
   title: 'Política de Cookies',
   description: 'Política de Cookies de Rótulos Almazora - Información sobre el uso de cookies en este sitio web.',
   robots: 'noindex, follow',

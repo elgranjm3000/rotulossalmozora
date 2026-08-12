@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Cómo un Buen Rótulo Atrae Más Clientes a tu Negocio',
   description: 'Descubre cómo la rotulación profesional de tu negocio puede aumentar el tráfico de clientes. Un rótulo bien diseñado es tu vendedor silencioso 24/7.',
   keywords: ['rótulo atrae clientes', 'rotulación negocio', 'letrero comercial', 'atraer clientes con rótulos', 'señalética efectiva', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-negocios/atrae-mas-clientes',
+  },
   openGraph: {
     title: 'Cómo un Buen Rótulo Atrae Más Clientes a tu Negocio',
     description: 'Descubre cómo la rotulación profesional de tu negocio puede aumentar el tráfico de clientes. Un rótulo bien diseñado es tu vendedor silencioso 24/7.',

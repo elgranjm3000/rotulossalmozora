@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Rotulación Corporativa: Cómo Refuerza la Imagen de tu Marca',
   description: 'La rotulación profesional comunica calidad, seriedad y confianza. Aprende cómo unos buenos rótulos refuerzan tu marca y atraen mejores clientes.',
   keywords: ['rotulación corporativa', 'imagen de marca', 'rótulos identidad visual', 'branding negocio', 'letreros profesionales', 'señalética marca', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-negocios/refuerza-tu-marca',
+  },
   openGraph: {
     title: 'Rotulación Corporativa: Cómo Refuerza la Imagen de tu Marca',
     description: 'La rotulación profesional comunica calidad, seriedad y confianza. Aprende cómo unos buenos rótulos refuerzan tu marca y atraen mejores clientes.',

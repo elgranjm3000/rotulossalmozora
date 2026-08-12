@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Protege la Pintura de tu Vehículo con Rotulación de Vinilo',
   description: 'El vinilo de rotulación no solo es publicidad: protege la pintura original de tu coche o furgoneta de rayos UV, arañazos y desgaste.',
   keywords: ['proteger pintura coche', 'vinilo protección vehículo', 'rotulación protectora', 'car wrapping', 'protección UV coche', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-vehiculos/protege-la-pintura',
+  },
   openGraph: {
     title: 'Protege la Pintura de tu Vehículo con Rotulación de Vinilo',
     description: 'El vinilo de rotulación no solo es publicidad: protege la pintura original de tu coche contra rayos UV, arañazos y desgaste.',

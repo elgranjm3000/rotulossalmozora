@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/privacidad',
+  },
   title: 'Política de Privacidad',
   description: 'Política de Privacidad de Rótulos Almazora - Información sobre el tratamiento de datos personales.',
   robots: 'noindex, follow',

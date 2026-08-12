@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   keywords: [
     'fabricación de rótulos', 'fabricación de rótulos Almazora', 'rótulos a medida', 'fabricar rótulos', 'fabricación letreros', 'taller de rotulación', 'rótulos personalizados', 'fabricación rótulos corporativos', 'empresa de rotulación', 'rotulistas Almazora',
   ],
+  alternates: {
+    canonical: '/blog/rotulacion-negocios/fabricacion-rotulos-almazora',
+  },
   openGraph: {
     title: 'Fabricación de Rótulos a Medida en Almazora | Rótulos Almazora',
     description: 'Fabricamos rótulos a medida para negocios, fachadas y vehículos. Diseño, materiales, corte CNC, iluminación LED e instalación profesional.',

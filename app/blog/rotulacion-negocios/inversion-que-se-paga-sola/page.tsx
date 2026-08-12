@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Rotular tu Negocio: Una Inversión que se Paga Sola',
   description: 'Comparativa de costes entre rotulación física y publicidad digital. Descubre por qué un rótulo es la inversión con mejor retorno para tu negocio.',
   keywords: ['inversión en rótulos', 'retorno inversión rotulación', 'coste rótulo negocio', 'publicidad exterior', 'rentabilidad letreros', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-negocios/inversion-que-se-paga-sola',
+  },
   openGraph: {
     title: 'Rotular tu Negocio: Una Inversión que se Paga Sola',
     description: 'Comparativa de costes entre rotulación física y publicidad digital. Descubre por qué un rótulo es la inversión con mejor retorno.',

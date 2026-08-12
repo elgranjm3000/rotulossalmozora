@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Vehículo Rotulado: Imagen Profesional para tu Empresa',
   description: 'Llegar a tus clientes con un vehículo rotulado proyecta seriedad y profesionalidad. Generas confianza antes incluso de bajar del coche.',
   keywords: ['imagen profesional', 'vehículo rotulado', 'confianza cliente', 'rotulación corporativa flota', 'furgoneta empresa', 'rotulistas Almazora'],
+  alternates: {
+    canonical: '/blog/rotulacion-vehiculos/imagen-profesional',
+  },
   openGraph: {
     title: 'Vehículo Rotulado: Imagen Profesional para tu Empresa',
     description: 'Llegar a tus clientes con un vehículo rotulado proyecta seriedad y profesionalidad. Generas confianza antes de bajar del coche.',
