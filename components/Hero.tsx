@@ -39,7 +39,7 @@ export function Hero() {
           style={{ backgroundImage: "url('/images/hero-banner.webp')" }}
         />
         {/* Strong gradient overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/60 to-white/35" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/65 to-white/40" />
       </div>
 
       {/* Content */}
