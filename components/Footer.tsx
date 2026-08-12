@@ -94,15 +94,40 @@ export function Footer() {
       </div>
 
       {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/34620049872"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-[#20bd5a] transition-all hover:scale-110 active:scale-95"
-        aria-label="Contactar por WhatsApp"
-      >
-        <WhatsAppIcon className="w-8 h-8" />
-      </a>
+      <div className="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-2">
+        {/* Tooltip bubble */}
+        <a
+          href="https://wa.me/34620049872"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white text-primary shadow-xl border border-border/50 px-5 py-3 font-body text-body-sm leading-relaxed text-right max-w-[220px] hover:bg-backgroundAlt transition-colors animate-pulse"
+          style={{ animationDuration: '4s' }}
+        >
+          ¿Hablamos por WhatsApp?<br />
+          <span className="text-accent font-semibold">Respuesta rápida</span>
+        </a>
+        {/* Main button */}
+        <a
+          href="https://wa.me/34620049872"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#25D366] text-white px-6 py-4 rounded-full flex items-center gap-3 shadow-2xl hover:bg-[#1fbd5a] hover:scale-105 active:scale-95 transition-all group"
+          aria-label="Contactar por WhatsApp para respuesta rápida"
+          style={{
+            boxShadow: '0 8px 32px rgba(37, 211, 102, 0.4)',
+          }}
+        >
+          <WhatsAppIcon className="w-9 h-9 group-hover:scale-110 transition-transform" />
+          <div className="text-left hidden sm:block">
+            <span className="block font-display font-semibold text-base leading-tight">
+              Contacta por WhatsApp
+            </span>
+            <span className="block font-body text-xs text-white/80 leading-tight">
+              Respuesta rápida · Presupuesto gratis
+            </span>
+          </div>
+        </a>
+      </div>
     </footer>
   )
 }
