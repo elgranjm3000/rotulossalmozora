@@ -6,6 +6,7 @@ export function CTA() {
   const sectionRef = useRef<HTMLElement>(null)
   const [formData, setFormData] = useState({
     nombre: '',
+    email: '',
     telefono: '',
     mensaje: '',
   })
@@ -35,7 +36,7 @@ export function CTA() {
     e.preventDefault()
     const subject = encodeURIComponent(`Consulta de ${formData.nombre || 'un cliente'}`)
     const body = encodeURIComponent(
-      `Nombre: ${formData.nombre || 'No indicado'}\nTeléfono: ${formData.telefono || 'No indicado'}\n\nMensaje:\n${formData.mensaje || 'Quisiera información sobre sus servicios de rotulación.'}`
+      `Nombre: ${formData.nombre || 'No indicado'}\nEmail: ${formData.email || 'No indicado'}\nTeléfono: ${formData.telefono || 'No indicado'}\n\nMensaje:\n${formData.mensaje || 'Quisiera información sobre sus servicios de rotulación.'}`
     )
     window.location.href = `mailto:contacto@rotulosalmazora.com?subject=${subject}&body=${body}`
   }
@@ -93,6 +94,18 @@ export function CTA() {
                   placeholder="¿Cómo te llamas?"
                   value={formData.nombre}
                   onChange={(e) => setFormData({ ...formData, nombre: e.target.value })}
+                  className="w-full bg-white border-b-2 border-primary/20 px-0 py-3 font-body text-body-md text-primary placeholder:text-secondary/60 focus:outline-none focus:border-primary transition-colors"
+                />
+              </div>
+              <div>
+                <label className="block font-mono text-label-sm uppercase tracking-widest text-primary mb-2">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  placeholder="tu@email.com"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full bg-white border-b-2 border-primary/20 px-0 py-3 font-body text-body-md text-primary placeholder:text-secondary/60 focus:outline-none focus:border-primary transition-colors"
                 />
               </div>
