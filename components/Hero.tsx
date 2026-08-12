@@ -47,7 +47,7 @@ export function Hero() {
         <div className="max-w-4xl">
           {/* Badge */}
           <span className="reveal inline-block font-mono text-label-lg uppercase tracking-widest bg-accent text-white px-4 py-2 mb-8">
-            Rotulistas en Almazora // Desde 1994
+            Rotulistas en Almazora
           </span>
 
           {/* Headline */}
@@ -75,7 +75,7 @@ export function Hero() {
       <div className="absolute bottom-8 right-8 lg:bottom-16 lg:right-16 hidden md:block z-10">
         <div className="border-l border-b border-primary/20 w-24 h-24 flex items-end p-3">
           <span className="font-mono text-label-sm text-secondary uppercase tracking-wider">
-            Rotulación Profesional // EST.1994
+            Rotulación Profesional
           </span>
         </div>
       </div>
