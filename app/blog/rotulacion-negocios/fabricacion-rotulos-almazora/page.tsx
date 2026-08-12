@@ -174,8 +174,8 @@ export default function BlogFabricacionRotulosAlmazora() {
           Todos nuestros rótulos incluyen:
         </p>
         <ul className="list-disc pl-6 space-y-2">
-          <li><strong>2 años de garantía</strong> en fabricación e instalación. Si algo falla por defecto de material o montaje, lo arreglamos sin coste.</li>
-          <li><strong>5 años de garantía</strong> en módulos LED de primeras marcas (Osram, Samsung, Epistar).</li>
+          <li><strong>Garantía</strong> en fabricación e instalación. Si algo falla por defecto de material o montaje, lo arreglamos sin coste.</li>
+          <li><strong>Garantía</strong> en módulos LED de primeras marcas.</li>
           <li><strong>Servicio postventa:</strong> Si dentro de unos años necesitas cambiar una letra dañada por un golpe, modificar el teléfono en la rotulación de un vehículo o añadir iluminación a un rótulo que antes no la llevaba, lo hacemos.</li>
         </ul>
 
@@ -183,7 +183,7 @@ export default function BlogFabricacionRotulosAlmazora() {
 
         <h3 className="font-display font-semibold text-lg text-primary mt-8 mb-3">¿Cuánto se tarda en fabricar un rótulo?</h3>
         <p>
-          Depende de la complejidad. Un rótulo de vinilo para un escaparate puede estar listo en <strong>2-3 días</strong>. Unas letras corpóreas con iluminación LED para una fachada, entre <strong>7 y 15 días</strong>. Un tótem publicitario de gran formato puede llevar <strong>3-4 semanas</strong>. En cualquier caso, te damos un plazo estimado antes de empezar y lo cumplimos.
+          Depende de la complejidad. Un rótulo de vinilo para un escaparate puede estar listo en <strong>2-3 días</strong>. Unas letras corpóreas con iluminación LED para una fachada, entre <strong>7 y 15 días</strong>. Proyectos de mayor envergadura como tótems publicitarios o rotulaciones integrales de fachada los planificamos contigo para cuadrar plazos y minimizar el impacto en tu actividad. Te damos un plazo estimado antes de empezar y lo cumplimos.
         </p>
 
         <h3 className="font-display font-semibold text-lg text-primary mt-8 mb-3">¿Puedo ver cómo va quedando durante el proceso?</h3>
